@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="css/resetstyle.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer type="text/javascript" src="scripts/database.js"></script>
+    <script defer type="text/javascript" src="scripts/script.js"></script>
+
+    <title>W2D5 Filmzoeker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <header>
+          <h1>Winc Academy Filmzoeker</h1>
+        </header>
+      </div>
+      <div class="filters">
+        <nav>
+          <ul id="btn_filter">
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  id="all_films"
+                  name="filter-button"
+                  value="all-films"
+                />
+                Alle Films</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  id="newest_films"
+                  name="filter-button"
+                  value="newest-films"
+                />
+                Nieuwste Films, 2014 - 2020</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  id="avengers_films"
+                  name="filter-button"
+                  value="avengers-films"
+                />
+                Avengers Films</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  id="xmen_films"
+                  name="filter-button"
+                  value="xmen-films"
+                />
+                X-Men Films</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  id="princess_films"
+                  name="filter-button"
+                  value="princess-films"
+                />
+                Princess Films</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  id="batman_films"
+                  name="filter-button"
+                  value="batman-films"
+                />
+                Batman Films</label
+              >
+            </li>
+            ​
+          </ul>
+          ​
+        </nav>
+        <div class="film-posters-result"></div>
+        <main>
+          <ul id="result-posters"></ul>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

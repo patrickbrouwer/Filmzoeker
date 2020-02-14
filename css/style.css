@@ -1,0 +1,8 @@
+body {
+  background-color: black;
+}
+
+.page-header,
+.filters {
+  color: aliceblue;
+}
